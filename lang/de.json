@@ -1,0 +1,633 @@
+{
+  "PF2E_CRITICAL_FORGE_AWKWARD_HEROICS": {
+    "Pack": {
+      "Title": "Awkward Heroics",
+      "Description": "Trockener Humor, peinlich souveräne Momente und regeltechnisch ernst gemeinte Folgen für kritische Angriffe, Zauberangriffe und Rettungswürfe."
+    },
+    "Errors": {
+      "Registration": "Awkward Heroics konnte nicht bei PF2E Critical Forge registriert werden. Details stehen in der Konsole."
+    },
+    "Cards": {
+      "AttackCriticalHit": {
+        "BetterThanPlanned": {
+          "Title": "Besser als geplant",
+          "Description": "Der Treffer war fachlich einwandfrei. Das Ziel hat Einwände, aber im Moment keine besonders gute Verteidigung.",
+          "Effect": "Besser als geplant"
+        },
+        "ConvincingArgument": {
+          "Title": "Überzeugendes Argument",
+          "Description": "Es war kein Gespräch, aber die Botschaft kam an. Das Ziel zweifelt kurz an der weiteren Entwicklung.",
+          "Effect": "Überzeugendes Argument"
+        },
+        "StillInMotion": {
+          "Title": "Noch im Schwung",
+          "Description": "Der Treffer endet genau dort, wo der nächste gute Einfall anfangen kann. Selten praktisch, diesmal schon.",
+          "Effect": "Noch im Schwung"
+        },
+        "ThatWasTheGap": {
+          "Title": "Das war die Lücke",
+          "Description": "Jetzt ist eindeutig geklärt, wo die Verteidigung nicht funktioniert. Leider für das Ziel wurde die Demonstration live durchgeführt.",
+          "Effect": "Das war die Lücke"
+        },
+        "BriefReassessment": {
+          "Title": "Kurze Neubewertung",
+          "Description": "Das Ziel überdenkt seine Angriffstechnik. Die aktuelle Bewertung fällt überraschend kritisch aus.",
+          "Effect": "Kurze Neubewertung"
+        },
+        "FirmlyWorded": {
+          "Title": "Nachdrücklich formuliert",
+          "Description": "Der Treffer nimmt dem Ziel für einen Moment etwas von der Kraft, mit der es gerade noch sehr selbstbewusst gearbeitet hat.",
+          "Effect": "Nachdrücklich formuliert"
+        },
+        "StanceCorrection": {
+          "Title": "Korrektur am Stand",
+          "Description": "Die Haltung des Ziels wird zwangsweise überarbeitet. Das Ergebnis ist funktional, aber nicht elegant.",
+          "Effect": "Korrektur am Stand"
+        },
+        "GoodPostureForNow": {
+          "Title": "Gute Haltung, vorerst",
+          "Description": "Die Bewegung sitzt so sauber, dass der Angreifer für einen Moment sogar defensiv organisiert wirkt.",
+          "Effect": "Gute Haltung, vorerst"
+        },
+        "NowWeKnowTheSpot": {
+          "Title": "Jetzt kennen wir die Stelle",
+          "Description": "Der Treffer markiert sehr überzeugend einen Schwachpunkt. Alle Beteiligten dürfen diese Information kurzfristig nutzen.",
+          "Effect": "Jetzt kennen wir die Stelle"
+        },
+        "UnnecessarilyClean": {
+          "Title": "Unnötig sauber",
+          "Description": "Der Treffer gelingt mit einer Präzision, die niemand verlangt hatte. Das Selbstvertrauen nimmt den Bonus trotzdem mit.",
+          "Effect": "Unnötig sauber"
+        },
+        "ExcellentLine": {
+          "Title": "Ausgezeichnete Linie",
+          "Description": "Der Angriff kommt aus einem Winkel, der dem Ziel kurz die Übersicht nimmt. Sehr lehrreich, vermutlich später.",
+          "Effect": "Ausgezeichnete Linie"
+        },
+        "PlanConfirmed": {
+          "Title": "Plan bestätigt",
+          "Description": "Offenbar war die Idee gut. Diese seltene Erkenntnis stabilisiert den Angreifer für die nächste unangenehme Überraschung.",
+          "Effect": "Plan bestätigt"
+        }
+      },
+      "AttackCriticalFumble": {
+        "TechnicallyAnAttack": {
+          "Title": "Technisch gesehen ein Angriff",
+          "Description": "Die Bewegung erfüllt die Mindestanforderungen an einen Angriff. Die Verteidigung leider nicht mehr ganz.",
+          "Effect": "Technisch gesehen ein Angriff"
+        },
+        "WeaponNotAtFault": {
+          "Title": "Die Waffe war nicht schuld",
+          "Description": "So viel steht immerhin fest. Leider muss der nächste Angriff die unangenehme Last dieser Erkenntnis mittragen.",
+          "Effect": "Die Waffe war nicht schuld"
+        },
+        "CenterOfGravityReassigned": {
+          "Title": "Schwerpunkt verlegt",
+          "Description": "Der Angriff endet mit einer neuen, nicht beantragten Gewichtsverteilung. Bewegungspräzision ist vorübergehend optional.",
+          "Effect": "Schwerpunkt verlegt"
+        },
+        "TooMuchCommitment": {
+          "Title": "Zu viel Einsatz",
+          "Description": "Der Angriff bekommt hundert Prozent Einsatz und ungefähr sechzig Prozent Ergebnis. Die Muskeln führen Buch.",
+          "Effect": "Zu viel Einsatz"
+        },
+        "BriefSelfCritique": {
+          "Title": "Kurze Selbstkritik",
+          "Description": "Für einen Moment stellt sich die berechtigte Frage, ob das eben wirklich die beste verfügbare Idee war.",
+          "Effect": "Kurze Selbstkritik"
+        },
+        "PlanBUnprepared": {
+          "Title": "Es gab ein Nachsetzen",
+          "Description": "Der Angriff geht ein Stück über den nützlichen Teil hinaus. In eine vernünftige Deckung zurückzukehren dauert merklich länger.",
+          "Effect": "Es gab ein Nachsetzen"
+        },
+        "TempoMisplaced": {
+          "Title": "Tempo verlegt",
+          "Description": "Irgendwo zwischen Ausholen und Ergebnis ging ein Teil des Bewegungsflusses verloren. Er taucht später vielleicht wieder auf.",
+          "Effect": "Tempo verlegt"
+        },
+        "CorrectionTooLate": {
+          "Title": "Korrektur zu spät",
+          "Description": "Die richtige Ausweichbewegung wird erkannt, leider erst nach Abschluss der falschen.",
+          "Effect": "Korrektur zu spät"
+        },
+        "UnexpectedPause": {
+          "Title": "Unerwartete Pause",
+          "Description": "Der Fehlschlag unterbricht den Rhythmus gründlich genug, dass der nächste Moment erst einmal neu sortiert werden muss.",
+          "Effect": "Unerwartete Pause"
+        },
+        "ConcentrationOutsourced": {
+          "Title": "Denkt noch darüber nach",
+          "Description": "Der Angriff ist vorbei. Der Kopf hat das noch nicht ganz akzeptiert und bleibt kurz mit den Einzelheiten beschäftigt.",
+          "Effect": "Denkt noch darüber nach"
+        },
+        "BreathingWasOptional": {
+          "Title": "Atmen war offenbar optional",
+          "Description": "Der Angriff verlangte alles auf einmal. Die Lunge möchte darauf hinweisen, dass sie bei „alles“ mitgemeint war.",
+          "Effect": "Atmen war offenbar optional"
+        },
+        "GeneralConfidenceReview": {
+          "Title": "Das erschütterte mehr als geplant",
+          "Description": "Ein schlechter Angriff verunsichert mehr als nur den Waffenarm. Für einen Moment ist jeder Abwehrinstinkt etwas weniger sicher.",
+          "Effect": "Das erschütterte mehr als geplant"
+        }
+      },
+      "SpellCriticalHit": {
+        "FormulaWasRight": {
+          "Title": "Die Formel hatte recht",
+          "Description": "Die Magie erreicht das Ziel exakt wie berechnet. Das Ziel braucht einen Moment, um diese unangenehme akademische Niederlage zu verarbeiten.",
+          "Effect": "Die Formel hatte recht"
+        },
+        "MoreEmphasisThanPlanned": {
+          "Title": "Mehr Nachdruck als vorgesehen",
+          "Description": "Der Zauber hinterlässt eine deutliche magische Resonanz. Weitere Zauber finden das Ziel nun leider ausgesprochen zugänglich.",
+          "Effect": "Mehr Nachdruck als vorgesehen"
+        },
+        "CleanlyCompiled": {
+          "Title": "Sauber kompiliert",
+          "Description": "Keine sichtbaren Fehler, keine peinlichen Nebeneffekte, nicht einmal Rauch. Der nächste Zauberangriff profitiert von diesem seltenen Zustand.",
+          "Effect": "Sauber kompiliert"
+        },
+        "MagicalDebrief": {
+          "Title": "Die Lektion kommt zuerst",
+          "Description": "Das Ziel versteht jetzt genau, was schiefging. Diese Erkenntnis kommt nur etwas zu spät, um bei der nächsten Abwehr zu helfen.",
+          "Effect": "Die Lektion kommt zuerst"
+        },
+        "NotSubtle": {
+          "Title": "Das war nicht subtil",
+          "Description": "Der Zauber macht seinen Punkt mit bemerkenswerter Deutlichkeit. Das Ziel nimmt die weitere Lage kurzfristig ernster.",
+          "Effect": "Das war nicht subtil"
+        },
+        "SecondaryEffectsIncluded": {
+          "Title": "Sekundäre Effekte inklusive",
+          "Description": "Der Zauber tut, was er sollte, und macht dann mit unnötiger Begeisterung weiter. Die Sicht des Ziels erhebt kurz Einspruch.",
+          "Effect": "Sekundäre Effekte inklusive"
+        },
+        "ResidualArcanePressure": {
+          "Title": "Magischer Restdruck",
+          "Description": "Die Energie bleibt gerade lang genug hängen, um die Verteidigung des Ziels unangenehm unordentlich zu machen.",
+          "Effect": "Magischer Restdruck"
+        },
+        "TheoryWins": {
+          "Title": "Die Theorie gewinnt",
+          "Description": "Für einen kurzen, kostbaren Moment stimmt die Praxis mit den Aufzeichnungen überein. Sogar die Zauber-SG wirkt überzeugter.",
+          "Effect": "Die Theorie gewinnt"
+        },
+        "Overqualified": {
+          "Title": "Überqualifiziert",
+          "Description": "Der Zauber löst das Problem gründlicher als nötig. Der Zaubernde nimmt den kleinen Überschuss an Selbstvertrauen mit.",
+          "Effect": "Überqualifiziert"
+        },
+        "ExcellentExample": {
+          "Title": "Schönes Beispiel",
+          "Description": "Wenn jemand später fragt, wie so etwas aussehen soll, wäre das hier ein brauchbarer Lehrbuchkasten gewesen.",
+          "Effect": "Schönes Beispiel"
+        },
+        "MagicWithFollowThrough": {
+          "Title": "Magie mit Nachdruck",
+          "Description": "Der Zauber endet, die Wirkung auf den Bewegungsapparat des Ziels offenbar noch nicht ganz.",
+          "Effect": "Magie mit Nachdruck"
+        },
+        "UncomfortablyPersuasive": {
+          "Title": "Unangenehm überzeugend",
+          "Description": "Die magische Argumentation lässt eine Lücke in der Verteidigung zurück. Niemand muss sich darüber freuen.",
+          "Effect": "Unangenehm überzeugend"
+        }
+      },
+      "SpellCriticalFumble": {
+        "TheoryMeetsPractice": {
+          "Title": "Theorie trifft Praxis",
+          "Description": "Die Begegnung verläuft angespannt. Der Zaubernde braucht kurz, um festzustellen, welcher Teil der Theorie gerade verloren hat.",
+          "Effect": "Theorie trifft Praxis"
+        },
+        "FeedbackReceived": {
+          "Title": "Rückmeldung erhalten",
+          "Description": "Die Magie liefert sofortiges Feedback. Leider ist es technisch korrekt und macht den Zaubernden kurz anfälliger für weitere Zauber.",
+          "Effect": "Rückmeldung erhalten"
+        },
+        "FormulaObjects": {
+          "Title": "Formel mit Einspruch",
+          "Description": "Der Zauber verfehlt nicht einfach nur. Er lässt den Zaubernden kurz daran zweifeln, ob der nächsten Zielberechnung zu trauen ist.",
+          "Effect": "Formel mit Einspruch"
+        },
+        "ConcentrationWithNoise": {
+          "Title": "Konzentration mit Nebengeräuschen",
+          "Description": "Die geistige Arbeitsfläche ist plötzlich erstaunlich voll. Präzise magische Schwierigkeit leidet kurz darunter.",
+          "Effect": "Konzentration mit Nebengeräuschen"
+        },
+        "MagicalHangover": {
+          "Title": "Magischer Kater",
+          "Description": "Der Zauber war kurz da, wo er nicht sein sollte. Der Körper reagiert mit einer sehr formellen Beschwerde.",
+          "Effect": "Magischer Kater"
+        },
+        "ShouldGlowDifferently": {
+          "Title": "Das sollte anders leuchten",
+          "Description": "Die gute Nachricht: Es leuchtet. Die weniger gute Nachricht: Der Zaubernde sieht danach kurz schlechter.",
+          "Effect": "Das sollte anders leuchten"
+        },
+        "TooFocusedOnDetails": {
+          "Title": "Zu viel Fokus auf Details",
+          "Description": "Die Aufmerksamkeit steckt noch in der misslungenen Formel fest. Für einen Moment bleibt einfach nicht genug für eine überzeugende Verteidigung übrig.",
+          "Effect": "Zu viel Fokus auf Details"
+        },
+        "ConfidenceShortCircuit": {
+          "Title": "Kurzschluss im Selbstvertrauen",
+          "Description": "Magie darf kompliziert sein. Sie muss den Zaubernden nur nicht so persönlich darauf hinweisen.",
+          "Effect": "Kurzschluss im Selbstvertrauen"
+        },
+        "BacklashNeedsSpace": {
+          "Title": "Der Rückschlag braucht Platz",
+          "Description": "Die Magie nimmt sich Raum. Der Zaubernde muss kurzfristig mit etwas weniger Bewegung auskommen.",
+          "Effect": "Der Rückschlag braucht Platz"
+        },
+        "AnotherAttemptLater": {
+          "Title": "Noch ein Versuch. Später.",
+          "Description": "Der Fehlschlag ist gründlich genug, um den Handlungsfluss für einen Moment aus dem Takt zu bringen.",
+          "Effect": "Noch ein Versuch. Später."
+        },
+        "MagicRemembers": {
+          "Title": "Die Magie merkt sich das",
+          "Description": "Für einen kurzen Moment fühlt sich jede weitere Abwehrprobe so an, als hätte das Universum Notizen gemacht.",
+          "Effect": "Die Magie merkt sich das"
+        },
+        "OpenQuestions": {
+          "Title": "Offene Fragen",
+          "Description": "Der Zauber scheitert, die Haltung gleich mit. Wenigstens ist die Reihenfolge eindeutig.",
+          "Effect": "Offene Fragen"
+        }
+      },
+      "FortitudeCriticalSuccess": {
+        "WasThatAll": {
+          "Title": "War das schon alles?",
+          "Description": "Die Belastung kommt an, macht ihren Punkt und wird mit körperlich beeindruckender Unhöflichkeit ignoriert.",
+          "Effect": "War das schon alles?"
+        },
+        "MoreDurableThanTheory": {
+          "Title": "Robuster als die Theorie",
+          "Description": "Nach allen vernünftigen Annahmen hätte das unangenehmer sein müssen. Der Körper nutzt die Differenz als Reserve.",
+          "Effect": "Robuster als die Theorie"
+        },
+        "ComplaintRejected": {
+          "Title": "Heute nicht",
+          "Description": "Was auch immer durchkommen wollte, trifft auf einen Körper, der Sturheit kurzfristig zur Überlebensstrategie erklärt hat.",
+          "Effect": "Heute nicht"
+        },
+        "SystemStillRunning": {
+          "Title": "Das System läuft weiter",
+          "Description": "Alles Wesentliche funktioniert noch. Einige Teile sind darüber selbst ein wenig überrascht und beginnen sofort mit der Reparatur.",
+          "Effect": "Das System läuft weiter"
+        },
+        "SurprisinglyIntact": {
+          "Title": "Überraschend intakt",
+          "Description": "Der Körper steckt die Belastung so sauber weg, dass der nächste Schaden kurz etwas mehr Überzeugungsarbeit leisten muss.",
+          "Effect": "Überraschend intakt"
+        },
+        "StableEnough": {
+          "Title": "Stabil genug",
+          "Description": "Die Belastung verändert die Haltung kaum. Für den nächsten Angriff sieht das sogar bemerkenswert organisiert aus.",
+          "Effect": "Stabil genug"
+        },
+        "AdrenalineApproved": {
+          "Title": "Adrenalin hat eine Meinung",
+          "Description": "Die Antwort des Körpers kommt sofort und ist nicht besonders subtil: weitermachen. Der nächste Angriff profitiert davon.",
+          "Effect": "Adrenalin hat eine Meinung"
+        },
+        "ExtraStepAvailable": {
+          "Title": "Noch ein Gang vorhanden",
+          "Description": "Offenbar waren noch Reserven da. Niemand weiß, warum sie nicht früher gemeldet wurden.",
+          "Effect": "Noch ein Gang vorhanden"
+        },
+        "NotEvenFlinching": {
+          "Title": "Nicht einmal gezuckt",
+          "Description": "Das war körperlich beeindruckend genug, dass die Angst es kurz lieber bei jemand anderem versucht.",
+          "Effect": "Nicht einmal gezuckt"
+        },
+        "ReserveTank": {
+          "Title": "Reservepolster",
+          "Description": "Die Belastung trifft auf mehr Substanz als erwartet. Der Überschuss bleibt kurzfristig verfügbar.",
+          "Effect": "Reservepolster"
+        },
+        "UnreasonablyHealthy": {
+          "Title": "Unvernünftig gesund",
+          "Description": "Physischer Schaden sieht sich kurzfristig mit einer ausgesprochen schlechten Kosten-Nutzen-Rechnung konfrontiert.",
+          "Effect": "Unvernünftig gesund"
+        },
+        "RecoveryAlreadyStarted": {
+          "Title": "Reparatur bereits begonnen",
+          "Description": "Der Effekt ist noch nicht ganz vorbei, da arbeitet der Körper bereits an der Nachbereitung. Effizient, fast verdächtig.",
+          "Effect": "Reparatur bereits begonnen"
+        }
+      },
+      "FortitudeCriticalFailure": {
+        "FormalComplaint": {
+          "Title": "Formelle Beschwerde",
+          "Description": "Der Körper nimmt die Belastung persönlich und bringt seine Unzufriedenheit sehr deutlich zum Ausdruck.",
+          "Effect": "Formelle Beschwerde"
+        },
+        "StrengthBudgetCut": {
+          "Title": "Mehr verbraucht als gedacht",
+          "Description": "Die Belastung greift tiefer auf die Muskeln zu als erwartet. Für kurze Zeit steht weniger Kraftreserve zur Verfügung.",
+          "Effect": "Mehr verbraucht als gedacht"
+        },
+        "NeedAMoment": {
+          "Title": "Einen Moment bitte",
+          "Description": "Der Körper beantragt eine sehr kurze Unterbrechung. Der Antrag wird ohne Rücksprache genehmigt.",
+          "Effect": "Einen Moment bitte"
+        },
+        "LegsHaveQuestions": {
+          "Title": "Die Beine haben Rückfragen",
+          "Description": "Die Belastung ist vorbei, aber die Beine sind noch nicht ganz überzeugt. Sie machen vorsichtshalber etwas langsamer.",
+          "Effect": "Die Beine haben Rückfragen"
+        },
+        "FollowUpExam": {
+          "Title": "Der Körper merkt sich das",
+          "Description": "Was auch immer gerade passiert ist, lässt den Körper deutlich weniger begeistert auf eine Wiederholung reagieren.",
+          "Effect": "Der Körper merkt sich das"
+        },
+        "GeneralSystemWarning": {
+          "Title": "Allgemeine Systemwarnung",
+          "Description": "Ein einzelner Fehler zieht überraschend viele Warnmeldungen nach sich. Vorübergehend betrifft das jede Abwehr.",
+          "Effect": "Allgemeine Systemwarnung"
+        },
+        "PostureNeedsMaintenance": {
+          "Title": "Haltung wartungsbedürftig",
+          "Description": "Die Belastung lässt die Verteidigung sichtbar unordentlicher zurück als vorgesehen.",
+          "Effect": "Haltung wartungsbedürftig"
+        },
+        "PowerDeliveryDelayed": {
+          "Title": "Kraftübertragung verzögert",
+          "Description": "Die Muskeln sind noch mit dem letzten Problem beschäftigt. Angriffe bekommen kurz weniger präzise Unterstützung.",
+          "Effect": "Kraftübertragung verzögert"
+        },
+        "EverythingFeelsWorse": {
+          "Title": "Alles fühlt sich schlimmer an",
+          "Description": "Die Belastung hinterlässt den Körper unangenehm empfänglich für weitere Probleme. Sehr kooperativ von ihr.",
+          "Effect": "Alles fühlt sich schlimmer an"
+        },
+        "PhysicalWarrantyExpired": {
+          "Title": "Plötzlich ist alles empfindlich",
+          "Description": "Für einen kurzen Moment finden gewöhnliche Treffer erstaunlich zuverlässig Stellen, die ohnehin schon empfindlich genug sind.",
+          "Effect": "Plötzlich ist alles empfindlich"
+        },
+        "CoordinationAlsoAffected": {
+          "Title": "Koordination ebenfalls betroffen",
+          "Description": "Offenbar reichte es der Belastung nicht, nur weh zu tun. Sie bringt auch das Timing des Körpers kurz aus dem Takt.",
+          "Effect": "Koordination ebenfalls betroffen"
+        },
+        "GuardOnSickLeave": {
+          "Title": "Anderweitig beschäftigt",
+          "Description": "Zu viel Aufmerksamkeit ist damit beschäftigt, den Körper zusammenzuhalten. Die äußere Deckung fällt kurz weniger überzeugend aus.",
+          "Effect": "Anderweitig beschäftigt"
+        }
+      },
+      "ReflexCriticalSuccess": {
+        "ExactlyWhereNotToBe": {
+          "Title": "Exakt dort, wo man nicht sein sollte",
+          "Description": "Die Bewegung endet an der einzig vernünftigen Stelle. Das ist im Nachhinein natürlich völlig offensichtlich.",
+          "Effect": "Exakt dort, wo man nicht sein sollte"
+        },
+        "LookedIntentional": {
+          "Title": "Sah absichtlich aus",
+          "Description": "Ob es geplant war, ist nebensächlich. Die neue Position ist defensiv hervorragend.",
+          "Effect": "Sah absichtlich aus"
+        },
+        "MomentumRecovered": {
+          "Title": "Schwung gerettet",
+          "Description": "Die Ausweichbewegung kostet keinen Rhythmus, sondern liefert überraschenderweise noch etwas dazu.",
+          "Effect": "Schwung gerettet"
+        },
+        "Countertempo": {
+          "Title": "Gegentempo",
+          "Description": "Ausweichen und Gegenangriff liegen plötzlich verdächtig nah beieinander. Der nächste Angriff profitiert.",
+          "Effect": "Gegentempo"
+        },
+        "OneDefenseTeachesAnother": {
+          "Title": "Eine Abwehr erklärt die nächste",
+          "Description": "Die perfekte Bewegung schafft kurzfristig ein sehr nützliches Muster für weitere Rettungswürfe.",
+          "Effect": "Eine Abwehr erklärt die nächste"
+        },
+        "NearMissReserve": {
+          "Title": "Beinahe-Treffer-Reserve",
+          "Description": "Der Effekt war nah genug, um Adrenalin zu erzeugen, aber nicht nah genug, um den Anspruch darauf anzufechten.",
+          "Effect": "Beinahe-Treffer-Reserve"
+        },
+        "BarelyTouched": {
+          "Title": "Kaum berührt",
+          "Description": "Die Bewegung nimmt dem nächsten Schaden kurz etwas von seiner Überzeugungskraft.",
+          "Effect": "Kaum berührt"
+        },
+        "PhysicalGapFound": {
+          "Title": "Physische Lücke gefunden",
+          "Description": "Die Ausweichbewegung findet eine Position, in der gewöhnliche körperliche Gewalt kurzfristig schlechtere Argumente hat.",
+          "Effect": "Physische Lücke gefunden"
+        },
+        "CirculationImproved": {
+          "Title": "Kreislauf überraschend hilfreich",
+          "Description": "Die schnelle Bewegung war offenbar auch medizinisch nicht völlig nutzlos. Der Körper beginnt sofort mit kleiner Reparaturarbeit.",
+          "Effect": "Kreislauf überraschend hilfreich"
+        },
+        "ConfidenceCatchesUp": {
+          "Title": "Selbstvertrauen holt auf",
+          "Description": "Der Kopf merkt erst danach, wie knapp das war. Bis dahin hält er die Sache für souverän und stabilisiert den Willen.",
+          "Effect": "Selbstvertrauen holt auf"
+        },
+        "BreathingRoomFound": {
+          "Title": "Atemraum gefunden",
+          "Description": "Die Bewegung landet genau dort, wo der Körper sich kurz besser gegen die nächste Belastung stemmen kann.",
+          "Effect": "Atemraum gefunden"
+        },
+        "AlreadyElsewhere": {
+          "Title": "Schon woanders",
+          "Description": "Der Reflex war so sauber, dass selbst die nächste Bewegung einen kleinen Vorsprung bekommt.",
+          "Effect": "Schon woanders"
+        }
+      },
+      "ReflexCriticalFailure": {
+        "WrongDirectionConfirmed": {
+          "Title": "Falsche Richtung bestätigt",
+          "Description": "Die Ausweichbewegung wird mit voller Überzeugung begonnen und am Boden ausgewertet.",
+          "Effect": "Falsche Richtung bestätigt"
+        },
+        "CorrectionInProgress": {
+          "Title": "Korrektur läuft",
+          "Description": "Der Körper versucht gleichzeitig auszuweichen und die erste Ausweichbewegung zu widerrufen. Präzision leidet.",
+          "Effect": "Korrektur läuft"
+        },
+        "MomentumFiledElsewhere": {
+          "Title": "Der Schwung war schon weg",
+          "Description": "Die Ausweichbewegung verbraucht mehr Schwung, als sie zurückgibt. Die nächste Bewegung beginnt mit merklich weniger davon.",
+          "Effect": "Der Schwung war schon weg"
+        },
+        "DefenseStillTurning": {
+          "Title": "Verteidigung noch in Bewegung",
+          "Description": "Die Gefahr ist vorbei, aber der Körper beendet noch die Ausweichbewegung. Die Deckung braucht einen Moment, um aufzuholen.",
+          "Effect": "Verteidigung noch in Bewegung"
+        },
+        "SecondGuessingTheDodge": {
+          "Title": "Ausweichbewegung wird angezweifelt",
+          "Description": "Der nächste Reflex beginnt mit einer kurzen internen Diskussion über die bisherige Strategie.",
+          "Effect": "Ausweichbewegung wird angezweifelt"
+        },
+        "HandsStillCatchingUp": {
+          "Title": "Die Hände sind noch unterwegs",
+          "Description": "Die Bewegung war so unkoordiniert, dass Angriffe kurz auf verspätete Rückmeldung warten.",
+          "Effect": "Die Hände sind noch unterwegs"
+        },
+        "GeneralEvasionConcern": {
+          "Title": "Ein falscher Schritt wirkt nach",
+          "Description": "Die misslungene Ausweichbewegung bringt für einen Moment jeden Abwehrinstinkt leicht aus dem Takt.",
+          "Effect": "Ein falscher Schritt wirkt nach"
+        },
+        "StandingSomewhereTechnically": {
+          "Title": "Technisch gesehen steht man noch",
+          "Description": "Die Position erfüllt die geometrischen Mindestanforderungen. Verteidigungsvorteile gehören nicht dazu.",
+          "Effect": "Technisch gesehen steht man noch"
+        },
+        "PauseForRecalculation": {
+          "Title": "Pause zur Neuberechnung",
+          "Description": "Die Bewegung war falsch genug, dass der nächste Handlungsschritt kurz auf neue Koordinaten warten muss.",
+          "Effect": "Pause zur Neuberechnung"
+        },
+        "VisualDataDelayed": {
+          "Title": "Bilddaten verspätet",
+          "Description": "Die Augen und der Rest des Körpers waren sich über die Richtung nicht ganz einig. Die Sicht braucht einen Moment.",
+          "Effect": "Bilddaten verspätet"
+        },
+        "EverythingFoundTheOpening": {
+          "Title": "Alles findet die Lücke",
+          "Description": "Die misslungene Bewegung hinterlässt eine Position, in der weiterer Schaden verdächtig leicht Anschluss findet.",
+          "Effect": "Alles findet die Lücke"
+        },
+        "PhysicsTakesNotes": {
+          "Title": "Die Physik macht Notizen",
+          "Description": "Körperliche Treffer bekommen für einen Moment eine sehr klare Vorstellung davon, wo sie ansetzen sollten.",
+          "Effect": "Die Physik macht Notizen"
+        }
+      },
+      "WillCriticalSuccess": {
+        "No": {
+          "Title": "Nein.",
+          "Description": "Die mentale Auseinandersetzung wird mit bemerkenswerter Kürze beendet. Der Wille bleibt für die nächste Anfrage stabiler.",
+          "Effect": "Nein."
+        },
+        "NotedAndRejected": {
+          "Title": "Zur Kenntnis genommen und abgelehnt",
+          "Description": "Der Effekt erhält eine vollständige interne Prüfung und trotzdem keinen Zutritt. Andere Abwehrreaktionen profitieren kurz von der Klarheit.",
+          "Effect": "Zur Kenntnis genommen und abgelehnt"
+        },
+        "FearAppointmentCancelled": {
+          "Title": "Angsttermin abgesagt",
+          "Description": "Nach dieser Abwehr ist für Angst kurzfristig kein freier Termin verfügbar.",
+          "Effect": "Angsttermin abgesagt"
+        },
+        "ConfidenceDividend": {
+          "Title": "Selbstvertrauen übrig",
+          "Description": "Der Geist gewinnt so eindeutig, dass ein wenig Gewissheit übrig bleibt. Der Körper macht daraus vorübergehende Widerstandskraft.",
+          "Effect": "Selbstvertrauen übrig"
+        },
+        "ArgumentWon": {
+          "Title": "Argument gewonnen",
+          "Description": "Der Kopf ist sich gerade ungewöhnlich sicher. Der nächste Angriff darf von dieser seltenen Einigkeit profitieren.",
+          "Effect": "Argument gewonnen"
+        },
+        "ComposureRestored": {
+          "Title": "Fassung wiedergefunden",
+          "Description": "Die mentale Abwehr sitzt so sauber, dass sogar die körperliche Deckung kurz organisierter wirkt.",
+          "Effect": "Fassung wiedergefunden"
+        },
+        "MentalNoiseReduced": {
+          "Title": "Mentales Rauschen reduziert",
+          "Description": "Die Abwehr schafft kurzfristig Ruhe im Kopf. Mentalschaden muss sich nun etwas deutlicher bemerkbar machen.",
+          "Effect": "Mentales Rauschen reduziert"
+        },
+        "GeneralResolve": {
+          "Title": "Allgemeine Entschlossenheit",
+          "Description": "Die mentale Klarheit strahlt für einen Moment erstaunlich weit aus. Selbst gewöhnlicher Schaden trifft auf etwas mehr Widerstand.",
+          "Effect": "Allgemeine Entschlossenheit"
+        },
+        "NervesBeginRepairs": {
+          "Title": "Nerven beginnen mit Reparaturen",
+          "Description": "Die Gedanken sind wieder geordnet genug, dass der Körper offenbar direkt mit der Nachbereitung anfängt.",
+          "Effect": "Nerven beginnen mit Reparaturen"
+        },
+        "BodyFollowsMind": {
+          "Title": "Der Körper folgt dem Kopf",
+          "Description": "Der Wille setzt sich durch, und die körperliche Abwehr nimmt die überraschend klare Anweisung dankbar an.",
+          "Effect": "Der Körper folgt dem Kopf"
+        },
+        "ReflexesGetTheMemo": {
+          "Title": "Klarheit erreicht die Füße",
+          "Description": "Ausnahmsweise sind sich Gedanke und Bewegung sofort einig. Die Reflexe werden kurz schärfer.",
+          "Effect": "Klarheit erreicht die Füße"
+        },
+        "VerySureAboutThis": {
+          "Title": "Sehr sicher bei dieser Sache",
+          "Description": "Das Selbstvertrauen ist gerade unnötig hoch. Der Körper legt vorsichtshalber etwas Reserve beiseite.",
+          "Effect": "Sehr sicher bei dieser Sache"
+        }
+      },
+      "WillCriticalFailure": {
+        "ThoughtHadPriority": {
+          "Title": "Der Gedanke hatte Vorfahrt",
+          "Description": "Der fremde Einfluss setzt sich überraschend ordentlich durch. Eigene Gedanken brauchen kurz länger, um wieder Anschluss zu finden.",
+          "Effect": "Der Gedanke hatte Vorfahrt"
+        },
+        "UncomfortablyPersuasive": {
+          "Title": "Unangenehm überzeugend",
+          "Description": "Der Effekt macht einen Punkt, den man lieber nicht verstanden hätte. Die weitere Lage wirkt kurzfristig deutlich bedrohlicher.",
+          "Effect": "Unangenehm überzeugend"
+        },
+        "InternalDebateContinues": {
+          "Title": "Interne Debatte läuft weiter",
+          "Description": "Der eigentliche Effekt ist vorbei, die Gegenargumente sind es noch nicht. Der nächste Willenswurf leidet darunter.",
+          "Effect": "Interne Debatte läuft weiter"
+        },
+        "DoubtSpreads": {
+          "Title": "Zweifel breiten sich aus",
+          "Description": "Ein misslungener mentaler Widerstand wirft leider Fragen zu sämtlichen anderen Abwehrmechanismen auf.",
+          "Effect": "Zweifel breiten sich aus"
+        },
+        "AttentionElsewhere": {
+          "Title": "Ein Teil ist noch dort",
+          "Description": "Der Effekt endet, aber ein Teil der Aufmerksamkeit bleibt bei ihm zurück. Für die Außenwelt bleibt weniger Deckung übrig.",
+          "Effect": "Ein Teil ist noch dort"
+        },
+        "ThinkingTakesTime": {
+          "Title": "Denken dauert gerade",
+          "Description": "Die Gedanken müssen sich erst wieder in die richtige Reihenfolge stellen. Der Handlungsfluss wartet einen Moment.",
+          "Effect": "Denken dauert gerade"
+        },
+        "AttackNeedsApproval": {
+          "Title": "Zu viele Stimmen, ein Angriff",
+          "Description": "Der Kopf gibt sich selbst widersprüchliche Anweisungen. Der nächste Angriff bezahlt für diese Uneinigkeit.",
+          "Effect": "Zu viele Stimmen, ein Angriff"
+        },
+        "DefenseForgotten": {
+          "Title": "Verteidigung kurz vergessen",
+          "Description": "Die mentale Belastung beansprucht mehr Aufmerksamkeit als vorgesehen. Die Deckung wird nebenbei etwas nachlässig.",
+          "Effect": "Verteidigung kurz vergessen"
+        },
+        "FeetAwaitInstructions": {
+          "Title": "Zögern erreicht die Füße",
+          "Description": "Der Kopf stockt gerade lange genug, dass die Bewegung etwas von ihrem Tempo verliert.",
+          "Effect": "Zögern erreicht die Füße"
+        },
+        "MentalDoorLeftOpen": {
+          "Title": "Mentale Tür offengelassen",
+          "Description": "Der Effekt hinterlässt eine unangenehm gut markierte Eintrittsstelle für weiteren Mentalschaden.",
+          "Effect": "Mentale Tür offengelassen"
+        },
+        "MindBodySchedulingConflict": {
+          "Title": "Kopf und Körper streiten über das Timing",
+          "Description": "Gedanke und Bewegung erscheinen nicht ganz zur selben Zeit. Die Koordination leidet kurzfristig.",
+          "Effect": "Kopf und Körper streiten über das Timing"
+        },
+        "PsychicNausea": {
+          "Title": "Psychische Übelkeit",
+          "Description": "Manche Gedanken liegen schwerer im Magen, als ihre rein geistige Natur vermuten lässt.",
+          "Effect": "Psychische Übelkeit"
+        }
+      }
+    }
+  }
+}
